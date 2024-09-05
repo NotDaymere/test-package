@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./packages",
+        "moduleResolution": "Node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "outDir": "./dist"
+    },
+    "exclude": ["node_modules"]
+}

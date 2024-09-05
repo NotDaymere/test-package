@@ -11,7 +11,8 @@
     "access": "public"
   },
   "peerDependencies": {
-    "dayjs": "^1.11.13"
+    "dayjs": "^1.11.13",
+    "typescript": "^5.5.4"
   },
   "homepage": "https://github.com/NotDaymere/test-package",
   "repository": {
@@ -22,7 +23,7 @@
   "files": [
     "packages/*"
   ],
-  "workspaces":[
+  "workspaces": [
     "packages/*"
   ],
   "types": "./packages/index.d.ts"
