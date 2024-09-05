@@ -1,14 +1,28 @@
 {
   "name": "@axsee/my-test-package",
-  "private": false,
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "My first package",
   "keywords": [
     "test package"
   ],
   "author": "axsee",
   "license": "ISC",
-  "dependencies": {
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
     "dayjs": "^1.11.13"
-  }
+  },
+  "homepage": "https://github.com/NotDaymere/test-package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotDaymere/test-package",
+    "bugs": "https://github.com/NotDaymere/test-package/issues"
+  },
+  "files": [
+    "workspace/*"
+  ],
+  "workspaces":[
+    "workspace/*"
+  ]
 }
