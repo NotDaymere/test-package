@@ -1,6 +1,6 @@
 {
   "name": "@axsee/my-test-package",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "My first package",
   "keywords": [
     "test package"
@@ -25,5 +25,5 @@
   "workspaces":[
     "packages/*"
   ],
-  "types": "./index.d.ts"
+  "types": "./packages/index.d.ts"
 }
