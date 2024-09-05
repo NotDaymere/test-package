@@ -1,0 +1,14 @@
+{
+  "name": "@axsee/my-test-package",
+  "private": false,
+  "version": "1.0.0",
+  "description": "My first package",
+  "keywords": [
+    "test package"
+  ],
+  "author": "axsee",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  }
+}
