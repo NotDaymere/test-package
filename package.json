@@ -1,6 +1,6 @@
 {
   "name": "@axsee/my-test-package",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "My first package",
   "keywords": [
     "test package"
@@ -20,10 +20,10 @@
     "bugs": "https://github.com/NotDaymere/test-package/issues"
   },
   "files": [
-    "workspace/*"
+    "packages/*"
   ],
   "workspaces":[
-    "workspace/*"
+    "packages/*"
   ],
   "types": "./index.d.ts"
 }
